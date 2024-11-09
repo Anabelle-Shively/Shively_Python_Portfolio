@@ -1,7 +1,7 @@
 # Shively_Python_Portfolio
 This is the portfolio of Python Code that I learned during BISC 450C
 
-## Using Jupyter Notebooks 1
+## Using Jupyter Notebooks (Part 1)
 ```python
 print("hello world!")
 ```
@@ -62,7 +62,7 @@ print('%d squared is %d' % (x, y))
 
     8 squared is 10
 
-## Using Jupyter Notebooks 2
+## Using Jupyter Notebooks (Part 2)
 ```python
 %matplotlib inline
 
