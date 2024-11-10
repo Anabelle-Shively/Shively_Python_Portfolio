@@ -1,7 +1,9 @@
 # Shively_Python_Portfolio
-This is the portfolio of Python Code that I learned during BISC 450C
+This is the portfolio of Python Code that I learned during BISC 450C. This portfolio exhibits exercises and functions that were taught throughout this course. As this is my first time learning coding and using Python, I learned skills that will benefit me in my career in the future. Dr. Vandenbrink did an excellent job explaining each step, and made it easy to understand for students, like me, who are green to coding and Python. I am so glad I took this course!  
 
 ## Using Jupyter Notebooks (Part 1)
+This exercise, I learned how to use the basic functions of Jupyter, such as print and import.
+
 ```python
 print("hello world!")
 ```
@@ -63,6 +65,7 @@ print('%d squared is %d' % (x, y))
     8 squared is 10
 
 ## Using Jupyter Notebooks (Part 2)
+In this exercise, I learned how to use basic functions of Jupyter Notebooks by analyzing data from Fortune 500 Companies.
 ```python
 %matplotlib inline
 
@@ -474,6 +477,8 @@ fig.tight_layout()
 ![png](output_17_0.png)
 
 ## Python Fundamentals
+In this exercise, we explored various methods of using Python to define and create data for future use.
+
 ```python
 # Any python interpreter can be used as a calculator:
 
@@ -826,6 +831,8 @@ print(numpy.mean(data, axis = 1))
      5.95  6.275 5.7   6.1   6.825 5.975 6.725 5.7   6.25  6.4   7.05  5.9  ]
 
 ## Storing Values in Lists
+In this exercise, we explored creating different lists using various variables and processes.
+
 ```python
 odds = [1, 3, 5, 7]
 print('odds are:', odds)
@@ -979,6 +986,8 @@ print('Omitting ending index:', sond)
 
 
 ## Using Loops
+In this exercise, we explored the functionality of creating loops for future use in programming.
+
 ```python
 odds = [1, 3, 5, 7]
 ```
@@ -1088,6 +1097,8 @@ print(len(name))
     3
 
 ## Using Multiple Files
+In this exercise, we combined the inflammation files and imported various packages we’ve learned to visualize all the data collectively.
+
 ```python
 import glob
 ```
@@ -1155,6 +1166,8 @@ for filename in filenames:
 
 
 ## Making Choices (Part 1)
+In this exercise, we used Python to make choices based on the presented information, selecting the correct answers to assess patients' health from the data.
+
 ```python
 num = 37
 
@@ -1226,6 +1239,8 @@ import numpy
 ```
 
 ## Making Choices (Part 2)
+In this exercise, we used Python to make choices based on the presented information, selecting the correct answers to assess patients' health from the data.
+
 ```python
 import numpy
 ```
@@ -1294,6 +1309,8 @@ else:
 
 
 ## Functions (Part 1)
+In this exercise, we applied various functions and conversion factors to further analyze our inflammation data.
+
 ```python
 fahrenheit_val = 99
 celsius_val = ((fahrenheit_val - 32) * (5/9))
@@ -1444,6 +1461,7 @@ print_temperatures()
     temperature in Kelvin was: 373.15
 
 ## Functions (Part 2)
+In this exercise, we applied various functions and conversion factors to further analyze our inflammation data.
 
 ```python
 import numpy
@@ -1978,6 +1996,7 @@ numpy.loadtxt('inflammation-01.csv',delimiter = ',')
 
 
 ## Defensive Programming
+In this exercise, we learned to program with precision to prevent errors. Any mistakes we made were quickly caught by Python, making them easy to understand and correct.
 ```python
 numbers = [1.5, 2.3, 0.7, 0.001, 4.4]
 total = 0.0
@@ -2035,6 +2054,8 @@ print(normalize_rectangle( (0.0, 0.0, 5.0, 1.0)))
 
 
 ## Transcription of DNA to RNA
+In this exercise, we selected a gene and downloaded its DNA file. We then transcribed the DNA into RNA for future use.
+
 ```python
 # Prompt the user to enter the input FASTA file name
 
@@ -2100,6 +2121,8 @@ print(rna_sequence)
 
 
 ## Translation of RNA into Protiens
+In this exercise, we used our previously transcribed RNA to translate it into a protein.
+
 ```python
 # Prompt the user to enter the input file name
 
